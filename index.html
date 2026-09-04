@@ -432,37 +432,63 @@
              <!-- Section Title -->
             <div class="title-wrap">
                 <h2 class="section-title" data-i18n="pricing.title">Planos e Preços</h2>
-                <p class="section-sub-title" data-i18n="pricing.subtitle">Escolha o plano ideal para o seu negócio. Pagamento mensal. Suporte incluído.</p>
+                <p class="section-sub-title" data-i18n="pricing.subtitle">Escolha o plano ideal para o seu negócio. Mensal ou anual. Suporte incluído.</p>
             </div>
             <!-- End of Section Title -->
-            <div class="card-deck mb-3 text-center">
+            <div class="row">
                 <!-- Worker's Bro -->
-                <div class="price-box card mb-4 box-shadow">
+                <div class="col-md-6 col-lg-3 mb-4">
+                <div class="price-box card h-100 box-shadow">
                     <div class="card-header p-4">
                         <h6 class="mb-0 text-orange font-weight-bold" data-i18n="pricing.bro.name">WORKER'S BRO</h6>
-                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:2.2rem;">5.000 <small>Kz</small></h2>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:2rem;">5.000 <small>Kz</small></h2>
                         <p class="mb-0"><span data-i18n="pricing.permonth">/mês</span></p>
-                        <p class="mb-0 mt-2" data-i18n="pricing.bro.tag">Presença essencial online</p>
+                        <p class="mb-0 mt-2 font-weight-bold" style="color:#0d6efd;" data-i18n="pricing.bro.for">Ideal para pequenos negócios</p>
+                        <p class="mb-0 mt-1 small text-muted" data-i18n="pricing.bro.tag">Presença clara e profissional online</p>
                     </div>
-                    <div class="card-body p-4">
+                    <div class="card-body p-4 d-flex flex-column">
                         <ul class="price-box-list list-unstyled mt-3 mb-4 text-left">
                             <li data-i18n="pricing.bro.f1">Site hospedado na Workers Dev</li>
                             <li data-i18n="pricing.bro.f2">Alterações básicas de texto e imagens</li>
                             <li data-i18n="pricing.bro.f3">Botão / link de WhatsApp</li>
                             <li data-i18n="pricing.bro.f4">Manutenção técnica básica</li>
                         </ul>
-                        <a href="contact.html" class="btn btn-block btn-secondary btn-orange mt-4" data-i18n="pricing.cta">Começar Agora</a>
+                        <a href="contact.html" class="btn btn-block btn-secondary btn-orange mt-auto" data-i18n="pricing.cta">Começar Agora</a>
                     </div>
                 </div>
+                </div>
+                <!-- Worker's Family (yearly Bro) -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                <div class="price-box card h-100 box-shadow">
+                    <div class="card-header p-4">
+                        <h6 class="mb-0 font-weight-bold" style="color:#28a745;" data-i18n="pricing.family.name">WORKER'S FAMILY</h6>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:2rem;">50.000 <small>Kz</small></h2>
+                        <p class="mb-0"><span data-i18n="pricing.peryear">/ano</span></p>
+                        <p class="mb-0 mt-2 font-weight-bold" style="color:#28a745;" data-i18n="pricing.family.for">Pague uma vez e poupe</p>
+                        <p class="mb-0 mt-1 small text-muted" data-i18n="pricing.family.tag">Mesmo do Bro, pagamento anual</p>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column">
+                        <ul class="price-box-list list-unstyled mt-3 mb-4 text-left">
+                            <li data-i18n="pricing.family.f1">Tudo do Worker's Bro</li>
+                            <li data-i18n="pricing.family.f2">Pagamento único por ano</li>
+                            <li data-i18n="pricing.family.f3">Poupe 10.000 Kz vs mensal</li>
+                            <li data-i18n="pricing.family.f4">Sem renovar todos os meses</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-block btn-success mt-auto" data-i18n="pricing.cta">Começar Agora</a>
+                    </div>
+                </div>
+                </div>
                 <!-- Pro -->
-                <div class="price-box card mb-4 box-shadow">
+                <div class="col-md-6 col-lg-3 mb-4">
+                <div class="price-box card h-100 box-shadow">
                     <div class="card-header p-4">
                         <h6 class="mb-0 text-cyan font-weight-bold" data-i18n="pricing.pro.name">PRO</h6>
-                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:2.2rem;">35.000 <small>Kz</small></h2>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:2rem;">35.000 <small>Kz</small></h2>
                         <p class="mb-0"><span data-i18n="pricing.permonth">/mês</span></p>
-                        <p class="mb-0 mt-2" data-i18n="pricing.pro.tag">Funcionalidades reais</p>
+                        <p class="mb-0 mt-2 font-weight-bold" style="color:#17a2b8;" data-i18n="pricing.pro.for">Para negócios em crescimento</p>
+                        <p class="mb-0 mt-1 small text-muted" data-i18n="pricing.pro.tag">Funcionalidades reais no site</p>
                     </div>
-                    <div class="card-body p-4">
+                    <div class="card-body p-4 d-flex flex-column">
                         <ul class="price-box-list list-unstyled mt-3 mb-4 text-left">
                             <li data-i18n="pricing.pro.f1">Tudo do Bro +</li>
                             <li data-i18n="pricing.pro.f2">Registo e login de utilizadores</li>
@@ -472,18 +498,21 @@
                             <li data-i18n="pricing.pro.f6">Base de dados incluída</li>
                             <li data-i18n="pricing.pro.f7">Actualizações e suporte prioritário</li>
                         </ul>
-                        <a href="contact.html" class="btn btn-block btn-secondary btn-cyan mt-4" data-i18n="pricing.cta">Começar Agora</a>
+                        <a href="contact.html" class="btn btn-block btn-secondary btn-cyan mt-auto" data-i18n="pricing.cta">Começar Agora</a>
                     </div>
                 </div>
-                <!-- Enterprise -->
-                <div class="price-box card mb-4 box-shadow">
+                </div>
+                <!-- Empresa -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                <div class="price-box card h-100 box-shadow">
                     <div class="card-header p-4">
                         <h6 class="mb-0 text-red font-weight-bold" data-i18n="pricing.ent.name">EMPRESA</h6>
-                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:1.6rem;">75.000 – 120.000 <small>Kz</small></h2>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold" style="font-size:1.45rem;">75.000 – 120.000 <small>Kz</small></h2>
                         <p class="mb-0"><span data-i18n="pricing.permonth">/mês</span></p>
-                        <p class="mb-0 mt-2" data-i18n="pricing.ent.tag">Ou orçamento personalizado</p>
+                        <p class="mb-0 mt-2 font-weight-bold" style="color:#dc3545;" data-i18n="pricing.ent.for">Para grandes negócios</p>
+                        <p class="mb-0 mt-1 small text-muted" data-i18n="pricing.ent.tag">Ou orçamento personalizado</p>
                     </div>
-                    <div class="card-body p-4">
+                    <div class="card-body p-4 d-flex flex-column">
                         <ul class="price-box-list list-unstyled mt-3 mb-4 text-left">
                             <li data-i18n="pricing.ent.f1">Tudo do Pro +</li>
                             <li data-i18n="pricing.ent.f2">Funcionalidades personalizadas</li>
@@ -492,8 +521,9 @@
                             <li data-i18n="pricing.ent.f5">Integrações e relatórios</li>
                             <li data-i18n="pricing.ent.f6">Suporte prioritário e dedicado</li>
                         </ul>
-                        <a href="contact.html" class="btn btn-block btn-secondary btn-red mt-4" data-i18n="pricing.cta_ent">Falar Connosco</a>
+                        <a href="contact.html" class="btn btn-block btn-secondary btn-red mt-auto" data-i18n="pricing.cta_ent">Falar Connosco</a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -665,16 +695,26 @@
 				"portfolio.trades": "Trades",
 				"portfolio.other": "Other",
 				"pricing.title": "Plans & Pricing",
-				"pricing.subtitle": "Choose the right plan for your business. Monthly payment. Support included.",
+				"pricing.subtitle": "Choose the right plan for your business. Monthly or yearly. Support included.",
 				"pricing.permonth": "/month",
+				"pricing.peryear": "/year",
 				"pricing.bro.name": "WORKER'S BRO",
-				"pricing.bro.tag": "Basic online presence",
+				"pricing.bro.for": "Ideal for small businesses",
+				"pricing.bro.tag": "Clear, organized, professional online presence",
 				"pricing.bro.f1": "Site hosted on Workers Dev",
 				"pricing.bro.f2": "Basic text and image updates",
 				"pricing.bro.f3": "WhatsApp button / link",
 				"pricing.bro.f4": "Basic technical maintenance",
+				"pricing.family.name": "WORKER'S FAMILY",
+				"pricing.family.for": "Pay once and save",
+				"pricing.family.tag": "Same as Bro, yearly payment",
+				"pricing.family.f1": "Everything in Worker's Bro",
+				"pricing.family.f2": "One payment per year",
+				"pricing.family.f3": "Save 10,000 Kz vs monthly",
+				"pricing.family.f4": "No need to renew every month",
 				"pricing.pro.name": "PRO",
-				"pricing.pro.tag": "Real features",
+				"pricing.pro.for": "For growing businesses",
+				"pricing.pro.tag": "Real features on your site",
 				"pricing.pro.f1": "Everything in Bro +",
 				"pricing.pro.f2": "User registration and login",
 				"pricing.pro.f3": "Client area (dashboard)",
@@ -683,6 +723,7 @@
 				"pricing.pro.f6": "Database included",
 				"pricing.pro.f7": "Updates and priority support",
 				"pricing.ent.name": "ENTERPRISE",
+				"pricing.ent.for": "For larger businesses",
 				"pricing.ent.tag": "Or custom quote",
 				"pricing.ent.f1": "Everything in Pro +",
 				"pricing.ent.f2": "Custom features",
@@ -767,16 +808,26 @@
 				"portfolio.trades": "Ofícios",
 				"portfolio.other": "Outros",
 				"pricing.title": "Planos e Preços",
-				"pricing.subtitle": "Escolha o plano ideal para o seu negócio. Pagamento mensal. Suporte incluído.",
+				"pricing.subtitle": "Escolha o plano ideal para o seu negócio. Mensal ou anual. Suporte incluído.",
 				"pricing.permonth": "/mês",
+				"pricing.peryear": "/ano",
 				"pricing.bro.name": "WORKER'S BRO",
-				"pricing.bro.tag": "Presença básica online",
+				"pricing.bro.for": "Ideal para pequenos negócios",
+				"pricing.bro.tag": "Presença clara, organizada e profissional online",
 				"pricing.bro.f1": "Site hospedado na Workers Dev",
 				"pricing.bro.f2": "Alterações básicas de texto e imagens",
 				"pricing.bro.f3": "Botão / link de WhatsApp",
 				"pricing.bro.f4": "Manutenção técnica básica",
+				"pricing.family.name": "WORKER'S FAMILY",
+				"pricing.family.for": "Pague uma vez e poupe",
+				"pricing.family.tag": "Mesmo do Bro, pagamento anual",
+				"pricing.family.f1": "Tudo do Worker's Bro",
+				"pricing.family.f2": "Pagamento único por ano",
+				"pricing.family.f3": "Poupe 10.000 Kz vs mensal",
+				"pricing.family.f4": "Sem renovar todos os meses",
 				"pricing.pro.name": "PRO",
-				"pricing.pro.tag": "Funcionalidades reais",
+				"pricing.pro.for": "Para negócios em crescimento",
+				"pricing.pro.tag": "Funcionalidades reais no site",
 				"pricing.pro.f1": "Tudo do Bro +",
 				"pricing.pro.f2": "Registo e login de utilizadores",
 				"pricing.pro.f3": "Área de cliente (dashboard)",
@@ -785,6 +836,7 @@
 				"pricing.pro.f6": "Base de dados incluída",
 				"pricing.pro.f7": "Actualizações e suporte prioritário",
 				"pricing.ent.name": "EMPRESA",
+				"pricing.ent.for": "Para grandes negócios",
 				"pricing.ent.tag": "Ou orçamento personalizado",
 				"pricing.ent.f1": "Tudo do Pro +",
 				"pricing.ent.f2": "Funcionalidades personalizadas",
